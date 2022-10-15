@@ -1,0 +1,685 @@
+Received: from SA0PR19MB4174.namprd19.prod.outlook.com (::1) by
+ BL0PR1901MB2177.namprd19.prod.outlook.com with HTTPS; Thu, 13 Oct 2022
+ 03:26:49 +0000
+Received: from BN8PR04CA0009.namprd04.prod.outlook.com (2603:10b6:408:70::22)
+ by SA0PR19MB4174.namprd19.prod.outlook.com (2603:10b6:806:82::19) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.5709.15; Thu, 13 Oct
+ 2022 03:26:46 +0000
+Received: from BN8NAM12FT008.eop-nam12.prod.protection.outlook.com
+ (2603:10b6:408:70:cafe::8a) by BN8PR04CA0009.outlook.office365.com
+ (2603:10b6:408:70::22) with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.5709.22 via Frontend
+ Transport; Thu, 13 Oct 2022 03:26:46 +0000
+Authentication-Results: spf=pass (sender IP is 74.220.216.123)
+ smtp.mailfrom=hivestorm.org; dkim=none (message not signed)
+ header.d=none;dmarc=bestguesspass action=none
+ header.from=hivestorm.org;compauth=pass reason=109
+Received-SPF: Pass (protection.outlook.com: domain of hivestorm.org designates
+ 74.220.216.123 as permitted sender) receiver=protection.outlook.com;
+ client-ip=74.220.216.123; helo=alt-proxy28.mail.unifiedlayer.com; pr=C
+Received: from alt-proxy28.mail.unifiedlayer.com (74.220.216.123) by
+ BN8NAM12FT008.mail.protection.outlook.com (10.13.183.155) with Microsoft SMTP
+ Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id
+ 15.20.5723.12 via Frontend Transport; Thu, 13 Oct 2022 03:26:45 +0000
+Received: from cmgw11.mail.unifiedlayer.com (unknown [10.0.90.126])
+	by progateway1.mail.pro1.eigbox.com (Postfix) with ESMTP id 0EDDB1003D9E7
+	for <jxv142@shsu.edu>; Thu, 13 Oct 2022 03:26:35 +0000 (UTC)
+Received: from box5838.bluehost.com ([162.241.24.29])
+	by cmsmtp with ESMTP
+	id iorhoAdgxj36OioriorAco; Thu, 13 Oct 2022 03:26:35 +0000
+X-Authority-Reason: nr=8
+X-Authority-Analysis: v=2.4 cv=T89J89GQ c=1 sm=1 tr=0 ts=6347856b
+ a=PJvSbRClHbxy3ydATozMTQ==:117 a=k0rzZTDGaqcw2016lTI8IQ==:17
+ a=Qawa6l4ZSaYA:10:nop_rcvd_month_year
+ a=iJvPoMJZBjQA:10:endurance_base64_authed_username_1 a=TYwscHyLAAAA:20
+ a=6v9T_NB0AAAA:20 a=NNMDd_XzAAAA:20 a=q7kWb5juAAAA:20 a=HNhSbifeAAAA:20
+ a=Ioevn_LDAAAA:8 a=XF4EenLFrLyD26pEK6gA:9 a=CjuIK1q_8ugA:10:nop_charset_2
+ a=spIQwvugGUUA:10:demote_shortener_1 a=ifBYL5nztsYA:10:demote_shortener_4
+ a=2JAUaz4L3DkA:10:demote_shortener_4 a=Jd9azuoAibsA:10:demote_shortener_4
+ a=O3tjJVYKRVAA:10:demote_shortener_4 a=Oq9corwUjpsA:10:demote_shortener_4
+ a=xX7fKAHQ7LxZzWyYbmYA:9 a=btudT84Sn3VojN6j:21 a=_W_S_7VecoQA:10:nop_html
+ a=QEXdDO2ut3YA:10:nop_charset_2 a=x2vnL57xSMnnoYM-r8a4:22
+Received: from box5838.bluehost.com ([162.241.24.29]:60692)
+	by box5838.bluehost.com with esmtpa (Exim 4.95)
+	(envelope-from <admin@hivestorm.org>)
+	id 1oiorT-003XUE-Lu;
+	Wed, 12 Oct 2022 21:26:19 -0600
+Received: from rrcs-64-183-181-195.sw.biz.rr.com ([64.183.181.195])
+ via rrcs-64-183-181-195.sw.biz.rr.com ([64.183.181.195])
+ by webmail-box5838.bluehost.com
+ with HTTP (HTTP/1.1 POST); Wed, 12 Oct 2022 21:26:06 -0600
+Date: Wed, 12 Oct 2022 21:26:06 -0600
+From: admin@hivestorm.org
+To: undisclosed-recipients:;
+Subject: Hivestorm 2022 Competition Information and Images Download
+User-Agent: Roundcube Webmail/1.4.12
+Message-ID: <3ef806947d14301e5053b338b82ebcba@hivestorm.org>
+X-Sender: admin@hivestorm.org
+Content-Type: multipart/alternative;
+ boundary="=_5a0721315a257af99922d68aca761141"
+X-AntiAbuse: This header was added to track abuse, please include it with any abuse report
+X-AntiAbuse: Primary Hostname - box5838.bluehost.com
+X-AntiAbuse: Original Domain - shsu.edu
+X-AntiAbuse: Originator/Caller UID/GID - [47 12] / [47 12]
+X-AntiAbuse: Sender Address Domain - hivestorm.org
+X-BWhitelist: no
+X-Source-IP: 162.241.24.29
+X-Source-L: No
+X-Exim-ID: 1oiorT-003XUE-Lu
+X-Source:
+X-Source-Args:
+X-Source-Dir:
+X-Source-Sender: box5838.bluehost.com [162.241.24.29]:60692
+X-Source-Auth: admin@hivestorm.org
+X-Email-Count: 86
+X-Source-Cap: bmF0aW9uaDc7bmF0aW9uaDc7Ym94NTgzOC5ibHVlaG9zdC5jb20=
+X-Local-Domain: yes
+Return-Path: admin@hivestorm.org
+X-MS-Exchange-Organization-ExpirationStartTime: 13 Oct 2022 03:26:46.1558
+ (UTC)
+X-MS-Exchange-Organization-ExpirationStartTimeReason: OriginalSubmit
+X-MS-Exchange-Organization-ExpirationInterval: 1:00:00:00.0000000
+X-MS-Exchange-Organization-ExpirationIntervalReason: OriginalSubmit
+X-MS-Exchange-Organization-Network-Message-Id:
+ 464fd1ef-9166-4183-27df-08daaccac1d3
+X-EOPAttributedMessage: 0
+X-EOPTenantAttributedMessage: b153cbd8-b392-4744-9b39-e3cdb8677f00:0
+X-MS-Exchange-Organization-MessageDirectionality: Incoming
+X-MS-PublicTrafficType: Email
+X-MS-TrafficTypeDiagnostic: BN8NAM12FT008:EE_|SA0PR19MB4174:EE_
+X-MS-Exchange-Organization-AuthSource:
+ BN8NAM12FT008.eop-nam12.prod.protection.outlook.com
+X-MS-Exchange-Organization-AuthAs: Anonymous
+X-MS-Office365-Filtering-Correlation-Id: 464fd1ef-9166-4183-27df-08daaccac1d3
+X-MS-Exchange-AtpMessageProperties: SA|SL
+X-MS-Exchange-Organization-ACSExecutionContext: 10/13/2022 03:26:48;10/13/2022
+ 03:26:48;DropDueToAllKnownVerdict;SC;S;0;01/01/0001 00:00:00;0|0|0|0|0|0|;
+X-MS-Exchange-Organization-SCL: 5
+X-Forefront-Antispam-Report:
+ CIP:74.220.216.123;CTRY:US;LANG:en;SCL:5;SRV:;IPV:NLI;SFV:SPM;H:alt-proxy28.mail.unifiedlayer.com;PTR:alt-proxy28.mail.unifiedlayer.com;CAT:SPM;SFS:(13230022)(4636009)(451199015)(8676002)(66899015)(18074004)(30864003)(1096003)(5660300002)(22186003)(83380400001)(966005)(9686003)(109986005)(7636003)(26005)(166002)(86362001)(2616005)(7596003)(108616005)(24736004)(58800400005)(956004)(33964004)(66574015)(356005)(336012)(36756003)(36910400007)(56720400004)(10030500005);DIR:INB;
+X-Microsoft-Antispam: BCL:0;
+X-MS-Exchange-CrossTenant-OriginalArrivalTime: 13 Oct 2022 03:26:45.9840
+ (UTC)
+X-MS-Exchange-CrossTenant-Network-Message-Id: 464fd1ef-9166-4183-27df-08daaccac1d3
+X-MS-Exchange-CrossTenant-Id: b153cbd8-b392-4744-9b39-e3cdb8677f00
+X-MS-Exchange-CrossTenant-AuthSource:
+ BN8NAM12FT008.eop-nam12.prod.protection.outlook.com
+X-MS-Exchange-CrossTenant-AuthAs: Anonymous
+X-MS-Exchange-CrossTenant-FromEntityHeader: Internet
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: SA0PR19MB4174
+X-MS-Exchange-Transport-EndToEndLatency: 00:00:03.6823070
+X-MS-Exchange-Processed-By-BccFoldering: 15.20.5709.015
+X-Microsoft-Antispam-Mailbox-Delivery:
+	ucf:0;jmr:0;auth:0;dest:J;OFR:SpamFilterAuthJ;ENG:(910001)(944506478)(944626604)(920097)(930097)(3100021);RF:JunkEmail;
+X-Microsoft-Antispam-Message-Info:
+	=?Windows-1252?Q?n/0s2e7R4tWho0kOetoTZ5qjOHqy47ULzwqp2Me1IQ9yFXq3vEPOEEPV?=
+ =?Windows-1252?Q?COqH3o7MhJu9AC2pNFoEYVHq04cCyE8QbaZ06tFLNn1yFL+AE2dITCZD?=
+ =?Windows-1252?Q?Tpi705qsfGuFxK1CCTHHGNGQV0eL7cKZgj3KGhrJA4YRqMGV9uIGGDmM?=
+ =?Windows-1252?Q?R2kdcTY286JdDqrtBg7z2mM7/Gv4mD0YEv0jKmAmG1D5CUWgFDAKCMi3?=
+ =?Windows-1252?Q?FwT+fRjIGlLFTLS+qHImy5Wr/nMIr7m5Xm24YA6+w+WP1LVPWrUplm7I?=
+ =?Windows-1252?Q?m9HKWzbR/f8ehPvEFHBwN6+oIMqeJ/kfGVglNu5AAmQZQi188xyMKUS/?=
+ =?Windows-1252?Q?fZ7OvLQUb4yW1A60YRvbrykVMh6UP33vGoKR7zPjA6lcP4EACSjrNmvq?=
+ =?Windows-1252?Q?aICf1hQ19RjzWjEYps5Lwqw2ExZRacv7ehXUum96CM/HR56QdFQ8pJsQ?=
+ =?Windows-1252?Q?An7k18pSTknU6rK75CJVEzB+BaymNai1NVzUF4n1VKVRT4Vs7naZCLAQ?=
+ =?Windows-1252?Q?n3ysaOi5fwOA3hUuCXjGp2SuvxAj3nlBwbsR+iuNLQr+9/k6qVsA7M9F?=
+ =?Windows-1252?Q?2FMz0vt7J6hmvCfAAKg5l66pW9JoZBMU5DwchNK7SXjhtcGhYQqo9L8t?=
+ =?Windows-1252?Q?vJQRC6BGOlb5kL9cggVd1k+ntjeWkQ9Jhq8ZpJfZf56fvs0kosekWmz0?=
+ =?Windows-1252?Q?rLJ4OF/GelPLgU+pzdkOyedVEhLyXN3gKFoF0y6in0RQ8CIpsnpYtaQE?=
+ =?Windows-1252?Q?vRrEjPy1VTJ8y6MU34Oh/oL5fcKJf06PEtR92AQLU0ZWuAgh19iL8sLF?=
+ =?Windows-1252?Q?RKgxL3q39kbT73AsWKIrJsct7AoORIcCnK24UsMEHsY6+s8kUeoxd51l?=
+ =?Windows-1252?Q?p02ZpV0+35lPmTEn3h52ikZdT9WUPkKOwmAjLOQWM9WEkhxw6CYtNJ2Z?=
+ =?Windows-1252?Q?HLXRs1fY2MoL+ArEgItO5nmSZ+sHRgOSPFuKGm4h5g12lhesj+IP/TOk?=
+ =?Windows-1252?Q?Ks51a1SdebHfnFBVFKvt3FXQ9LMLE0dpXtNynQ6Ga6DVD95eUH97srCh?=
+ =?Windows-1252?Q?ZtVM+x7MLrLYJednZ5z7dNMrzLT0GVkGeKu+JSSE8MXJj+xTZUo0W857?=
+ =?Windows-1252?Q?A50XGmungzgEZ8LjOKsF30gZbEKcHV0sF7mxNs5lhSig14/6dHOkXyvK?=
+ =?Windows-1252?Q?Y7icVb47B5M/BQB7s43RQcgEOhfSxaEfOXC61Dq2z1mY5TpkUlwzFfeZ?=
+ =?Windows-1252?Q?zhl26mreuZRTnDtkFSluCs7NvpuoeGAJjIkiuyDPS66D+QeunsniFscJ?=
+ =?Windows-1252?Q?nzRxLAsF1SlXrD6y/eJ/dE6cibshk1mBT9I1o9j5zjknk5WZp/VXkoFC?=
+ =?Windows-1252?Q?p2b/fD+cWJE7TvkZXQORHJ503O55oKJUkF6+0yTb+7d62FCipHA0anTQ?=
+ =?Windows-1252?Q?8XJRmUyDh22aRHke9XQpSXPL27SlShF48Z6WlIL9SuKSkH3Qzx0Y1t3V?=
+ =?Windows-1252?Q?yWS+FpoPsrxQWflU4YoxXr+Q0JZBcETo0oFP0KOVogH6nL1KuSnE0GIv?=
+ =?Windows-1252?Q?Da5x5WiKNHf04+kzS7m2KvAjtLF1pwAiLhZpJjOhb+gSerKzbLW1KI5w?=
+ =?Windows-1252?Q?iBjbTILxkdNatRqnIuD8OYFsda5NT8GPKPA1ESG1LKCGkvLS1O5qCC86?=
+ =?Windows-1252?Q?pt9rrjQURxDNtAIByBNWcJxwJTsfxX2VCMQNhoGnQzRsVFHH2i1yB9wI?=
+ =?Windows-1252?Q?9y5PC8lH0UGKLprJwGOD90zIkv+K8LjxwmHG4GjJg4zURYjb1FtSOqCa?=
+ =?Windows-1252?Q?eL8V5qFT82jwpfO4CGvCtH0ZR5Jrfw0BPiCzh9Xc4MCGLgBXU3gclaFP?=
+ =?Windows-1252?Q?wIHF/VmTFEH9LYJ1BKNvjT6BG0hAou24H2SFJDvkvfbWPBdyd+DcTfEl?=
+ =?Windows-1252?Q?m30ULfMSHbS3/s3/ar4UedYuxPblmzn8oDj1Hh0fLfdRSkGKQNVXn4R+?=
+ =?Windows-1252?Q?l0AB1Vg/M8bsKl/Va8kIGZ0YzA1qnOPQqvTyNTyQpEYV525hSIGZIkvD?=
+ =?Windows-1252?Q?W+X9u/9IitqldNrvoC2YcMOwbtMm1Fu8pGGHlH1MGT5CegmvM4DbE8kN?=
+ =?Windows-1252?Q?RE/3cBYOJMSMGUvrMgjDv6T6Sr8J5JEr6mBZ7VPqKfPgtnQb+UtnDKoW?=
+ =?Windows-1252?Q?zWqhiZLRegD+851hpMW/M/m8yxJ3f9TD7DZEuP4H+8KKPAzyiwD2PssW?=
+ =?Windows-1252?Q?fEOsd593dJRYtezvl5b0GBEDsjklEcWBJ3UW0iIOlXGBgeG5cfgcsNm4?=
+ =?Windows-1252?Q?tXsHeTnsrGgM6TfUYCZjYHMy12pYplzhfwPM6QeD2iD60gnpr/ncbG9y?=
+ =?Windows-1252?Q?20vf7dKhujct889e+LLvl6+HUL19MyMVeQczxO6T8/kc8eG+lvZ+E5n+?=
+ =?Windows-1252?Q?TWIi0vorG0aRzQrrWUD+i+I4CozoMYpBBk9wPS5hYzqYgMu3iZRGwpB0?=
+ =?Windows-1252?Q?GW1Ttdyq1ABFc40StxLuJZimDb4W8S6BkpancJzPqHr9+GCiRJNGXBWZ?=
+ =?Windows-1252?Q?LosJlsmhY7ooUQwO/4KVpURZ9LZni6ZVrQNjTjX5QhVqUteytdnqTTG1?=
+ =?Windows-1252?Q?K7sd//oM03IbB/Gu4Ch+DL3/twdodwSM3UV1BSGXBdrs2rAxZyAjdwYR?=
+ =?Windows-1252?Q?icW54r8+CMxku9I+RUXTP/FzgFAsd/txtxKRg831jGaLmXbZhseUg848?=
+ =?Windows-1252?Q?w377yb8bUe+cWrBlG6Ie/MqCe95gvb3ZYjIkIdR3Tk+OCXIjfF52wrua?=
+ =?Windows-1252?Q?wqJlqiQy06Q+TFZYy4Z1ZcgKsUSRBHaUi7uCPOKSutMJoTMtwzU/Pzh1?=
+ =?Windows-1252?Q?LJ/hwJiiKuxQgg=3D=3D?=
+MIME-Version: 1.0
+
+--=_5a0721315a257af99922d68aca761141
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/plain; charset="utf-8"; format=flowed
+
+CAUTION:The sender of this email is not from SHSU.
+Any links or attachments may be dangerous. To report this email as suspicio=
+us, forward it to abuse@shsu.edu.
+
+Dear Hivestorm Team Captain,
+
+Please share this message with your coach and other team members.  Our apol=
+ogies for the text wall, but we want to provide you with as much informatio=
+n as we can ahead of time.  Please read this information carefully as failu=
+re to do so will cause issues for your team during the competition.
+
+The competition images are now available for download.  You may download, i=
+mport, and stage these competition VMs but DO NOT POWER ON ANY COMPETITION =
+VMs UNTIL YOU ARE READY TO START YOUR COMPETITION WINDOW.  When you power u=
+p any of the competition VMs your team=E2=80=99s 4-hour window starts. Ther=
+e is no stopping, pausing, or resetting of competition windows once they=E2=
+=80=99ve started.  If your coach, captain, or any team member powers up a c=
+ompetition VM before 10 AM Central on Oct 15th your team will be disqualifi=
+ed.
+
+Before powering up any competition VMs, make sure the time on your host sys=
+tem is correct.  Check that the time zone is correct and the host is displa=
+ying the correct time for that time zone.  This is especially critical for =
+virtualization environments such as vSphere.  If the time on the system hos=
+ting the VMs is wrong/off then it could prevent your VMs from scoring, may =
+reduce your team=E2=80=99s competition window, and may prevent you from com=
+peting all together.  We cannot make adjustments for host system time or ti=
+me zone misconfigurations and will not be responsible for errors caused by =
+an incorrect host system time =E2=80=93 be sure the time on your host is co=
+rrect before powering up any competition VMs!
+
+There are 5 competition VMs - they may be downloaded from the following lin=
+ks:
+
+Debian 10
+
+https://tinyurl.com/3ef7kdv5
+
+SHA1:  EB80150FF9D7A6B4A45AEF1C0BB3CE569B46A686
+
+
+Windows Server 2019
+
+https://tinyurl.com/2vuspjtj
+SHA1:  969C112C51DBC4240C89C5E66DD950B53F42F44D
+
+
+Ubuntu 20_1
+
+https://tinyurl.com/523c8ahx
+
+SHA1:  8E4B88243C8FA8481AF622546B6729EC0EC798EB
+
+
+Ubuntu 20_2
+
+https://tinyurl.com/y2cbueth
+
+SHA1:  0CE8F2861E4E4486337CFEDDA703323E30CAF26A
+
+
+Windows 10
+
+https://tinyurl.com/yd2d4t6a
+
+SHA1:  C54A994A09DA5BEDBCCD6FB077C1A919A950C33A
+
+
+The official competition window runs from 11 AM to 10 PM Central time on Oc=
+t 15th.  You can choose when you start playing within that window, but you =
+must start and complete your 4-hour competition window within that timefram=
+e.  The VMs are set to UTC time - do not modify the time zone on the VMs.  =
+You may work on the VMs one at a time or all at the same time just keep in =
+mind you have a total of 4 hours from the time you power up that first comp=
+etition image to achieve your highest score on all the competition VMs.  Th=
+e scoring server will stop =E2=80=9Ccounting=E2=80=9D scores for every team=
+ after their 4 hours is up so don=E2=80=99t worry if you see teams with a r=
+untime longer than 4 hours on the scoreboard (that just shows you which tea=
+ms didn=E2=80=99t power off their VMs when they were finished =E2=80=93 the=
+y=E2=80=99re not getting a longer play window or extra time).
+
+You can use Discord to communicate with the Hivestorm Team during the compe=
+tition.  The Discord link is https://discord.gg/u9Rwt4TZ.  Please identify =
+yourself with your team number on the Discord server.  This Discord server =
+is only manned during competition hours.
+
+A few technical notes to assist your team in this competition:
+
+  *   Check your downloads =E2=80=93 SHA1 sums are provided above with the =
+link to each VM.  VMs are distributed in OVA format.
+  *   These VMs should work fine on the latest versions of VMWare Player/Wo=
+rkstation/ESXi/vSphere.  You may be able to import and run them using Virtu=
+alBox, Proxmox, or Hyper-V but these are not officially supported solutions=
+ and we will not be able to help you get the VMs running in a non-supported=
+ environment.
+  *   If you are importing these VMs onto a platform without a sound card (=
+like a server) you may want to remove the sound device from the VMs configu=
+ration before you power them up.  If you do not remove the sound device bef=
+ore powering the VM on a server platform you will get a prompt indicating t=
+he VM can't find a sound device and asking if you want to look for a sound =
+device each time the VM restarts.  You can safely answer "no" to that quest=
+ion.  Check the monitor tab in your web client for that VM if you don't see=
+ a pop-up question.
+  *   These VMs are setup for "NAT" which means they are designed to share =
+the IP address of the host system.  You can modify the VMs to use DHCP or s=
+tatic IP addresses to fit your operating environment.
+  *   Enter your team's Unique ID into each VM as soon as you power them up=
+.  You won't get any score or feedback until you do and the VM will deactiv=
+ate after a period of time without a valid Unique ID.
+  *   Do not run multiple instances of the competition VMs.  Run a single c=
+opy of any specific competition VM at a time (i.e., only run one copy of De=
+bian 10 at a time).
+  *   Do not perform major version upgrades on the provided operating syste=
+ms.  For example, do not update Ubuntu 20 to Ubuntu 22 or Windows 10 to Win=
+dows 11.  You can update applications and services if needed (and may need =
+to on some critical applications).
+  *   These VMs are used by different organizations for different purposes.=
+  Each VM has a README file - check it to see what services are required, w=
+ho the valid users are, what software packages are allowed or prohibited, a=
+nd so on.  The link to the VM readme is on the desktop of each VM.
+  *   You can "start over" using a fresh copy of any VM if you like, but th=
+at will reset your score on that particular VM to zero.  Similarly, rolling=
+ back a VM or restoring it to a specific snapshot will revert your score on=
+ that VM to the score when that snapshot was made.  However, this does NOT =
+reset your competition window =E2=80=93 just your score on that VM.  Your t=
+eam=E2=80=99s 4-hour window keeps on running once it is started.
+  *   Some forensics questions require more than one answer.  If that is th=
+e case, make sure each answer is placed on a separate line and is preceded =
+by "ANSWER:  ".
+  *   Remember your goal is to "find and fix" as many issues as you can on =
+each of these VMs.  You may find malware that needs to be removed, users wi=
+th no passwords, no password policies, prohibited software, and so on.  The=
+re are 100 points available on each VM.  Please note you may "correct" some=
+thing that is not scored.
+  *   Every VMs should automatically log you in with a user that has admin =
+privileges.  You can change the password on the default account if you want=
+ to.
+  *   When you are finished playing, please shutdown or suspend your compet=
+ition VMs.
+
+
+Q:  What do we do at the end of our 4-hour window when we are done competin=
+g?
+
+A:  Power off your competition VMs and then delete them from your host syst=
+ems.
+
+
+Q:  What sort of tools/scripts can we use to secure these systems?
+
+A:  You can use any open source, freeware, trialware, or openly published t=
+ool or script.  Basically, if you didn't have to pay money for it then you =
+can use it.
+
+
+Q:  We have multiple teams running in the same building and/or coming from =
+the same external IP address - is that okay?
+
+A:  Absolutely.  As long the VMs have been registered with your Team's Uniq=
+ue ID and can reach the scoring server on TCP port 80/443 then you will be =
+fine.
+
+
+Q:  What network connectivity do the VMs need?
+
+A:  Just like the practice images, the competition images need to be able t=
+o reach the scoring server on TCP ports 80 and 443.  You may also find that=
+ Internet access on the VM is useful for downloading updates to application=
+s like Firefox.
+
+
+Q:  We have multiple teams; can they start at different times?
+
+A:  Absolutely.  Each team's window starts when they power up their first V=
+M.
+
+
+Q:  Can we setup Active Directory and use that to manage the users?
+
+A:  Absolutely - if you can get it working properly without interfering wit=
+h the scoring system.
+
+
+Q:  My scoring report doesn't seem to be updating.
+
+A:  If your VM is connected to the scoring server, the local scoring report=
+ should update every 60 seconds.  You can manually refresh the scoring repo=
+rt as well by reloading the page.
+
+
+Q:  Can you modify the resources allocated to the VMs (cores, drive size, m=
+emory, etc.)?
+
+A:  Yes.  As long as the VMs continue to boot and run you can change the re=
+sources allocated to the VMs.
+
+
+Q:  Are these OVAs unique to each team?
+
+A:  No.  Every team gets the same images.  If have multiple teams and want =
+to download one set of OVAs and copy them locally that=E2=80=99s fine.  Jus=
+t verify the checksums on download and copy.
+
+
+Q:  Can our team work together on the VMs or are we supposed to work on eac=
+h VM separately.
+
+A: Completely up to your team.  If you want to assign a VM to each team mem=
+ber, work on one VM at a time as a team, or switch out who is working on wh=
+at VM you are free to do so.  You just can=E2=80=99t collaborate with anyon=
+e that=E2=80=99s not on your team.  And remember to not run more than one c=
+opy of any specific competition VM at a time.
+
+
+Q:  We=E2=80=99re planning on running our VMs in vSphere and we plan to do =
+a single download, import the VMs, and then clone out a set for each team =
+=E2=80=93 is that okay?
+
+A:  Yes.  Just make sure none of the VMs are ever powered up until the team=
+ is ready to start competing. Make sure the VMs are not accidentally powere=
+d on during import.  If it does, delete it and import a fresh copy from the=
+ OVA.
+
+
+
+Sincerely,
+
+
+The Hivestorm Team
+
+--=_5a0721315a257af99922d68aca761141
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html; charset=UTF-8
+
+<html><head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8"></=
+head>
+<body style=3D"font-size: 10pt; font-family: Verdana,Geneva,sans-serif">
+<div style=3D"display: inline-block; border: 1px solid #555; background-col=
+or: rgb(254,223,80);">
+<p style=3D"display: inline-block; margin: 0; padding: .5rem; font-family: =
+'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 16px; font-style=
+: normal; color:black; font-variant: normal; font-weight: 400; line-height:=
+ 1.2; text-align: center;">
+<strong>CAUTION:</strong>The sender of this email is not from SHSU.<br>
+Any links or attachments may be dangerous. To report this email as suspicio=
+us, forward it to abuse@shsu.edu.<br>
+</p>
+</div>
+<div>
+<p>Dear Hivestorm Team Captain,</p>
+<p>Please share this message with your coach and other team members. &nbsp;=
+Our apologies for the text wall, but we want to provide you with as much in=
+formation as we can ahead of time.&nbsp;
+<strong><u>Please read this information carefully as failure to do so will =
+cause issues for your team during the competition.</u></strong></p>
+<p>The competition images are now available for download. &nbsp;You may dow=
+nload, import, and stage these competition VMs but
+<strong>DO NOT POWER ON ANY COMPETITION VMs UNTIL YOU ARE READY TO START YO=
+UR COMPETITION WINDOW</strong>. &nbsp;When you power up
+<strong><u>any</u></strong> of the competition VMs your team=E2=80=99s 4-ho=
+ur window starts. There is no stopping, pausing, or resetting of competitio=
+n windows once they=E2=80=99ve started.&nbsp; If your coach, captain, or an=
+y team member powers up a competition VM before 10 AM
+ Central on Oct 15th your team will be disqualified.</p>
+<p>Before powering up any competition VMs, make sure the time on your host =
+system is correct.&nbsp; Check that the time zone is correct and the host i=
+s displaying the correct time for that time zone.&nbsp; This is especially =
+critical for virtualization environments such
+ as vSphere.&nbsp; If the time on the system hosting the VMs is wrong/off t=
+hen it could prevent your VMs from scoring, may reduce your team=E2=80=99s =
+competition window, and may prevent you from competing all together.&nbsp; =
+We cannot make adjustments for host system time or
+ time zone misconfigurations and will not be responsible for errors caused =
+by an incorrect host system time =E2=80=93 be sure the time on your host is=
+ correct before powering up any competition VMs!</p>
+<p>There are 5 competition VMs - they may be downloaded from the following =
+links:</p>
+<p>Debian 10</p>
+<p><a href=3D"https://nam12.safelinks.protection.outlook.com/?url=3Dhttps%3=
+A%2F%2Ftinyurl.com%2F3ef7kdv5&amp;data=3D05%7C01%7Cjxv142%40shsu.edu%7C464f=
+d1ef9166418327df08daaccac1d3%7Cb153cbd8b39247449b39e3cdb8677f00%7C0%7C0%7C6=
+38012284097756748%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luM=
+zIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C0%7C%7C%7C&amp;sdata=3DRafkeXq5qP%2F6Ts=
+8amtGPNbckFxXQwshXuq12h%2BWiJ3A%3D&amp;reserved=3D0" originalsrc=3D"https:/=
+/tinyurl.com/3ef7kdv5" shash=3D"rQQYS/77Ibw5E29ETVQhLSWKh7GP/mUpLzue4hCEM38=
+Ic091105KSgt+mHonlXwY1Fp+tNj5tvEvPDgouWwuXTFdwAEwpHxQvFLRbtiHB9H/pvow3nHEWb=
+UOiGhzdH5zJdEmOqoq4/wfnsChY58ekPHMsWGefv+78ibbKLAsUwU=3D">https://tinyurl.c=
+om/3ef7kdv5</a></p>
+<p>SHA1:&nbsp; EB80150FF9D7A6B4A45AEF1C0BB3CE569B46A686</p>
+<p><br>
+</p>
+<p>Windows Server 2019</p>
+<p><a href=3D"https://nam12.safelinks.protection.outlook.com/?url=3Dhttps%3=
+A%2F%2Ftinyurl.com%2F2vuspjtj&amp;data=3D05%7C01%7Cjxv142%40shsu.edu%7C464f=
+d1ef9166418327df08daaccac1d3%7Cb153cbd8b39247449b39e3cdb8677f00%7C0%7C0%7C6=
+38012284097756748%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luM=
+zIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C0%7C%7C%7C&amp;sdata=3DPrFNKQF8eIxCrwLS=
+yCFj0G7K6shgXLWiTva3h%2FUYb2Y%3D&amp;reserved=3D0" originalsrc=3D"https://t=
+inyurl.com/2vuspjtj" shash=3D"R82kIh0duB4XKeUVilNo6VwlJdDlGnSdlEIcMlIMsc+MA=
+7uJm0Ke+yLwYxQJEWX29AaZz3LZYF7sKA7V5rtktUPXCd1nWm1JbN03+D2PCgJbXd7TspvDAnJo=
+VfiHOI7jxp7jMtlI8UQR0WCQRoiMD+HIS1mCbXUwYfLBNIEOTDc=3D">https://tinyurl.com=
+/2vuspjtj</a> <br>
+SHA1:&nbsp; 969C112C51DBC4240C89C5E66DD950B53F42F44D</p>
+<p><br>
+</p>
+<p>Ubuntu 20_1</p>
+<p><a href=3D"https://nam12.safelinks.protection.outlook.com/?url=3Dhttps%3=
+A%2F%2Ftinyurl.com%2F523c8ahx&amp;data=3D05%7C01%7Cjxv142%40shsu.edu%7C464f=
+d1ef9166418327df08daaccac1d3%7Cb153cbd8b39247449b39e3cdb8677f00%7C0%7C0%7C6=
+38012284097756748%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luM=
+zIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C0%7C%7C%7C&amp;sdata=3Doigk4BU7%2BTFf8S=
+WXqzxVG1Da0mpCRBJCYssfi6xF4mI%3D&amp;reserved=3D0" originalsrc=3D"https://t=
+inyurl.com/523c8ahx" shash=3D"ZE2IFfv+K2IKp8cMtLXYYulQsbFh+1nUcvMn4BDh6q/93=
+ly44jBz5Zm0NQFApWwz7fswsWz+r7fxIBIA7OhZxK56VJ8NjRBSHNfyX8DdUgiR6116cam9NE0e=
+J0WjLJ5K3Ctl6lJiWX6qI3I3StcbVoVGUfEM0kMNIscuNzi79vw=3D">https://tinyurl.com=
+/523c8ahx</a></p>
+<p>SHA1:&nbsp; 8E4B88243C8FA8481AF622546B6729EC0EC798EB</p>
+<p><br>
+</p>
+<p>Ubuntu 20_2</p>
+<p><a href=3D"https://nam12.safelinks.protection.outlook.com/?url=3Dhttps%3=
+A%2F%2Ftinyurl.com%2Fy2cbueth&amp;data=3D05%7C01%7Cjxv142%40shsu.edu%7C464f=
+d1ef9166418327df08daaccac1d3%7Cb153cbd8b39247449b39e3cdb8677f00%7C0%7C0%7C6=
+38012284097912995%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luM=
+zIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C0%7C%7C%7C&amp;sdata=3DA%2F3Pxd%2B1%2FH=
+HsVNppLhZiN6eiGI8lXYv%2FGTz6KsZMsyE%3D&amp;reserved=3D0" originalsrc=3D"htt=
+ps://tinyurl.com/y2cbueth" shash=3D"u1vRPHwIBseO69Us1cNQjmeAdB5brlQCFBXXJF8=
+Jp6szP7y5+00Je3KSiSJBJA4J4vP1O0+Bdu5T14EeXG9k6agyb0Cj5BvqcVE9pCUra37aA2VNZD=
+b++y54+f1S7lq7aznmtji/Im6/iPSL5qqtoBJYLB8dFQeuMXXpPnGZOXo=3D">https://tinyu=
+rl.com/y2cbueth</a></p>
+<p>SHA1:&nbsp; 0CE8F2861E4E4486337CFEDDA703323E30CAF26A</p>
+<p><br>
+</p>
+<p>Windows 10</p>
+<p><a href=3D"https://nam12.safelinks.protection.outlook.com/?url=3Dhttps%3=
+A%2F%2Ftinyurl.com%2Fyd2d4t6a&amp;data=3D05%7C01%7Cjxv142%40shsu.edu%7C464f=
+d1ef9166418327df08daaccac1d3%7Cb153cbd8b39247449b39e3cdb8677f00%7C0%7C0%7C6=
+38012284097912995%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luM=
+zIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C0%7C%7C%7C&amp;sdata=3DV%2BUnKDfOkIAgUr=
+d0AAg9%2FXS72QHfk5TUZHJx5CQwmCo%3D&amp;reserved=3D0" originalsrc=3D"https:/=
+/tinyurl.com/yd2d4t6a" shash=3D"AXw2wwwJQp/7PU45dO+7zTEjQl/6JCk3jAzhQ52FFv3=
+sslhM5NRDUAjKao/FAd92/cw+0Fk7tFJg8PDZyyggpiSJp4RpvafvV6x1Yl8Iu+U5/zspZ3vmul=
+ePv+wiqTUQ/zxbrB2M+tPm7wQGRiPxEoBCkHnFJFkCDdPWnZLYwBw=3D">https://tinyurl.c=
+om/yd2d4t6a</a></p>
+<p>SHA1:&nbsp; C54A994A09DA5BEDBCCD6FB077C1A919A950C33A</p>
+<p><br>
+</p>
+<p>The official competition window runs from 11 AM to 10 PM Central time on=
+ Oct 15<sup>th</sup>. &nbsp;You can choose when you start playing within th=
+at window, but you must start and complete your 4-hour competition window w=
+ithin that timeframe. &nbsp;The VMs are set
+ to UTC time - do not modify the time zone on the VMs. &nbsp;You may work o=
+n the VMs one at a time or all at the same time just keep in mind you have =
+a total of 4 hours from the time you power up that first competition image =
+to achieve your highest score on all
+ the competition VMs.&nbsp; The scoring server will stop =E2=80=9Ccounting=
+=E2=80=9D scores for every team after their 4 hours is up so don=E2=80=99t =
+worry if you see teams with a runtime longer than 4 hours on the scoreboard=
+ (that just shows you which teams didn=E2=80=99t power off their VMs when
+ they were finished =E2=80=93 they=E2=80=99re not getting a longer play win=
+dow or extra time).&nbsp;</p>
+<p>You can use Discord to communicate with the Hivestorm Team during the co=
+mpetition. &nbsp;The Discord link is
+<a href=3D"https://nam12.safelinks.protection.outlook.com/?url=3Dhttps%3A%2=
+F%2Fdiscord.gg%2Fu9Rwt4TZ&amp;data=3D05%7C01%7Cjxv142%40shsu.edu%7C464fd1ef=
+9166418327df08daaccac1d3%7Cb153cbd8b39247449b39e3cdb8677f00%7C0%7C0%7C63801=
+2284097912995%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiL=
+CJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C0%7C%7C%7C&amp;sdata=3DCWajMEZEQx8TcLENrhJr=
+VJFGtkpfg3FueEU8bZoasyU%3D&amp;reserved=3D0" originalsrc=3D"https://discord=
+.gg/u9Rwt4TZ" shash=3D"ZKzf8wmQlE4Nky5LzWHoYpzJHb22nkJSUGYSaFXoqyl3d2/cjftT=
+mFDs7VICCVB95wDZOdfJWD5AuFwdMXd5rZUxVgvoMtlwRMrIpxt6Ugn32cTJPXcX4WtI75sJ8Ee=
+7JSYnKlTG1FZR2nguwWtk+0/v2Kr9+sxDJzO29ey/0BI=3D">https://discord.gg/u9Rwt4T=
+Z</a>. &nbsp;Please identify yourself with your team number on the Discord =
+server. &nbsp;This Discord server is only manned during competition hours.<=
+/p>
+<p>A few technical notes to assist your team in this competition:</p>
+<ul>
+<li>Check your downloads =E2=80=93 SHA1 sums are provided above with the li=
+nk to each VM.&nbsp; VMs are distributed in OVA format.</li><li>These VMs s=
+hould work fine on the latest versions of VMWare Player/Workstation/ESXi/vS=
+phere. &nbsp;You may be able to import and run them using VirtualBox, Proxm=
+ox, or Hyper-V but these are not officially supported solutions and we will=
+ not be able to help you
+ get the VMs running in a non-supported environment.</li><li>If you are imp=
+orting these VMs onto a platform without a sound card (like a server) you m=
+ay want to remove the sound device from the VMs configuration before you po=
+wer them up. &nbsp;If you do not remove the sound device before powering th=
+e VM on a server platform
+ you will get a prompt indicating the VM can't find a sound device and aski=
+ng if you want to look for a sound device each time the VM restarts. &nbsp;=
+You can safely answer &quot;no&quot; to that question. &nbsp;Check the moni=
+tor tab in your web client for that VM if you don't
+ see a pop-up question.</li><li>These VMs are setup for &quot;NAT&quot; whi=
+ch means they are designed to share the IP address of the host system. &nbs=
+p;You can modify the VMs to use DHCP or static IP addresses to fit your ope=
+rating environment.</li><li>Enter your team's Unique ID into each VM as soo=
+n as you power them up. &nbsp;You won't get any score or feedback until you=
+ do and the VM will deactivate after a period of time without a valid Uniqu=
+e ID.</li><li>Do not run multiple instances of the competition VMs. &nbsp;R=
+un a single copy of any specific competition VM at a time (i.e., only run o=
+ne copy of Debian 10 at a time).</li><li>Do not perform major version upgra=
+des on the provided operating systems. &nbsp;For example, do not update Ubu=
+ntu 20 to Ubuntu 22 or Windows 10 to Windows 11.&nbsp; You can update appli=
+cations and services if needed (and may need to on some critical applicatio=
+ns).</li><li>These VMs are used by different organizations for different pu=
+rposes. &nbsp;Each VM has a README file - check it to see what services are=
+ required, who the valid users are, what software packages are allowed or p=
+rohibited, and so on.&nbsp; The link to the VM readme
+ is on the desktop of each VM.</li><li>You can &quot;start over&quot; using=
+ a fresh copy of any VM if you like, but that will reset your score on that=
+ particular VM to zero. &nbsp;Similarly, rolling back a VM or restoring it =
+to a specific snapshot will revert your score on that VM to the score when =
+that snapshot
+ was made.&nbsp; However, this does NOT reset your competition window =E2=
+=80=93 just your score on that VM.&nbsp; Your team=E2=80=99s 4-hour window =
+keeps on running once it is started.</li><li>Some forensics questions requi=
+re more than one answer. &nbsp;If that is the case, make sure each answer i=
+s placed on a separate line and is preceded by &quot;ANSWER: &nbsp;&quot;. =
+&nbsp;</li><li>Remember your goal is to &quot;find and fix&quot; as many is=
+sues as you can on each of these VMs. &nbsp;You may find malware that needs=
+ to be removed, users with no passwords, no password policies, prohibited s=
+oftware, and so on. &nbsp;There are 100 points available on each
+ VM. &nbsp;Please note you may &quot;correct&quot; something that is not sc=
+ored.</li><li>Every VMs should automatically log you in with a user that ha=
+s admin privileges.&nbsp; You can change the password on the default accoun=
+t if you want to.</li><li>When you are finished playing, please shutdown or=
+ suspend your competition VMs.</li></ul>
+<p><br>
+</p>
+<p>Q: &nbsp;What do we do at the end of our 4-hour window when we are done =
+competing?</p>
+<p>A: &nbsp;Power off your competition VMs and then delete them from your h=
+ost systems.</p>
+<p><br>
+</p>
+<p>Q: &nbsp;What sort of tools/scripts can we use to secure these systems?<=
+/p>
+<p>A: &nbsp;You can use any open source, freeware, trialware, or openly pub=
+lished tool or script. &nbsp;Basically, if you didn't have to pay money for=
+ it then you can use it.</p>
+<p><br>
+</p>
+<p>Q: &nbsp;We have multiple teams running in the same building and/or comi=
+ng from the same external IP address - is that okay?</p>
+<p>A: &nbsp;Absolutely. &nbsp;As long the VMs have been registered with you=
+r Team's Unique ID and can reach the scoring server on TCP port 80/443 then=
+ you will be fine.</p>
+<p><br>
+</p>
+<p>Q:&nbsp; What network connectivity do the VMs need?</p>
+<p>A:&nbsp; Just like the practice images, the competition images need to b=
+e able to reach the scoring server on TCP ports 80 and 443.&nbsp; You may a=
+lso find that Internet access on the VM is useful for downloading updates t=
+o applications like Firefox.</p>
+<p><br>
+</p>
+<p>Q: &nbsp;We have multiple teams; can they start at different times?</p>
+<p>A: &nbsp;Absolutely. &nbsp;Each team's window starts when they power up =
+their first VM.</p>
+<p><br>
+</p>
+<p>Q: &nbsp;Can we setup Active Directory and use that to manage the users?=
+</p>
+<p>A: &nbsp;Absolutely - if you can get it working properly without interfe=
+ring with the scoring system.</p>
+<p><br>
+</p>
+<p>Q: &nbsp;My scoring report doesn't seem to be updating.</p>
+<p>A: &nbsp;If your VM is connected to the scoring server, the local scorin=
+g report should update every 60 seconds. &nbsp;You can manually refresh the=
+ scoring report as well by reloading the page.</p>
+<p><br>
+</p>
+<p>Q: &nbsp;Can you modify the resources allocated to the VMs (cores, drive=
+ size, memory, etc.)?</p>
+<p>A: &nbsp;Yes. &nbsp;As long as the VMs continue to boot and run you can =
+change the resources allocated to the VMs.</p>
+<p><br>
+</p>
+<p>Q: &nbsp;Are these OVAs unique to each team?</p>
+<p>A: &nbsp;No.&nbsp; Every team gets the same images.&nbsp; If have multip=
+le teams and want to download one set of OVAs and copy them locally that=E2=
+=80=99s fine.&nbsp; Just verify the checksums on download and copy.</p>
+<p><br>
+</p>
+<p>Q:&nbsp; Can our team work together on the VMs or are we supposed to wor=
+k on each VM separately.</p>
+<p>A: Completely up to your team.&nbsp; If you want to assign a VM to each =
+team member, work on one VM at a time as a team, or switch out who is worki=
+ng on what VM you are free to do so.&nbsp; You just can=E2=80=99t collabora=
+te with anyone that=E2=80=99s not on your team.&nbsp; And remember
+ to not run more than one copy of any specific competition VM at a time.</p=
+>
+<p><br>
+</p>
+<p>Q:&nbsp; We=E2=80=99re planning on running our VMs in vSphere and we pla=
+n to do a single download, import the VMs, and then clone out a set for eac=
+h team =E2=80=93 is that okay?</p>
+<p>A:&nbsp; Yes.&nbsp; Just make sure <strong><u>none</u></strong> of the V=
+Ms are ever powered up until the team is ready to start competing. Make sur=
+e the VMs are not accidentally powered on during import.&nbsp; If it does, =
+delete it and import a fresh copy from the OVA.</p>
+<p><br>
+</p>
+<p><br>
+</p>
+<p>Sincerely,</p>
+<p><br>
+</p>
+<p>The Hivestorm Team</p>
+</div>
+</body>
+</html>
+
+--=_5a0721315a257af99922d68aca761141--
