@@ -1,0 +1,1 @@
+virtual machine stayed on black screen while booting. I waited a little bit and it booted without issue. 
