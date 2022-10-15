@@ -1,0 +1,31 @@
+Hivestorm Rules
+ 
+
+Overview
+Hivestorm is a timed competition event. Each team will download a set of virtual machines and attempt to find and address as many vulnerabilities, misconfigurations, and insecure settings as they can in the allotted time. Points are awarded for actions like mitigating scored vulnerabilities or completing a forensic challenge.
+
+ 
+
+Rules
+ Competitor Eligibility
+a. All competitors must be registered students of a college or university (two- or four-year degree granting institution).
+b. Competitors may only compete on a single team during any given event.
+ 
+
+ Team Composition
+a. Teams must consist of between two and four competitors.
+b. Once a competition has begun, team members may not be substituted or replaced.
+c. Each team will designate a Team Captain to act as the team liaison between the competition staff and the team before, during, and after the competition.
+d. Teams composed of students from different colleges and universities are welcome to play, but will not be eligible to place or receive any awards.
+e. Each team must register with a coach of record. The coach must be a staff or faculty member from the institution the team is representing. Individuals may serve as the coach for multiple Hivestorm teams from their institution.
+ 
+
+Competition Conduct
+a. Teams have a limited time window which begins when the team powers up any of the provided VMs. Once the time window has started it cannot be paused or stopped – teams must complete their work on all provided VMs within that time window. Points earned after the time window has expired will not be accepted.
+b. Teams may only have one instance or occurrence of any specific VM running at a time.
+c. Rolling back, resetting, or reverting VMs may result in point losses as the VM is returning to an earlier, less secure state.
+d. Teams are prohibited from conducting offensive operations against any system including but not limited to scoring systems, display systems, other teams, and so on.
+e. Teams must compete without “outside assistance” from non-team members which includes team advisors and sponsors. All private communications (calls, emails, chat, directed emails, forum postings, conversations, requests for assistance, etc) with non-team members including team sponsors that would help the team gain an unfair advantage are not allowed and are grounds for disqualification.
+f. Teams must not interfere with scoring agents or servers used by competition officials.
+g. Any action taken by a team or competitor that disrupts scoring agents or interferes with the functionality of the scoring engine or manual scoring checks are exclusively the responsibility of the teams.
+h. Protests by any team must be presented in writing by the Team Captain to competition officials as soon as possible. The competition officials will be the final arbitrators for any protests or questions arising before, during, or after the competition.
