@@ -1,0 +1,34 @@
+I need to list services listening on port 9001
+net-tools cannot be installed (no package) for some reason
+
+zagreus@ubu20:/$ nmap 127.0.0.1
+Starting Nmap 7.93 ( https://nmap.org ) at 2022-10-15 20:57 UTC
+Nmap scan report for localhost (127.0.0.1)
+Host is up (0.000092s latency).
+Not shown: 995 closed tcp ports (conn-refused)
+PORT     STATE SERVICE
+22/tcp   open  ssh
+139/tcp  open  netbios-ssn
+445/tcp  open  microsoft-ds
+631/tcp  open  ipp
+9001/tcp open  tor-orport
+
+Nmap done: 1 IP address (1 host up) scanned in 0.07 seconds
+
+not able to find this service on the system
+
+enabled repos, installed net-tools see updates.txt
+
+zagreus@ubu20:~/Desktop$ sudo fuser -v 9001/tcp
+                     USER        PID ACCESS COMMAND
+9001/tcp:            root      13006 F.... \37777777702\37777777605
+zagreus@ubu20:~/Desktop$ ps -aux | grep 13006
+root       13006  0.0  0.1  18956 10104 ?        S    20:57   0:00 /usr/bin/python3 /?
+zagreus    19224  0.0  0.0   9040   728 pts/0    R+   21:21   0:00 grep --color=auto 13006
+
+python3 /? is the file name
+707974686f6e33202f3f hex
+01110000011110010111010001101000011011110110111000110011001000000010111100111111 binary
+112 121 116 104 111 110 51 32 47 63 codepoints utf8
+U+70 U+79 U+74 U+68 U+6f U+6e U+33 U+20 U+2f U+3f codepoints in utf8 hex
+https://onlineutf8tools.com/convert-utf8-to-code-points

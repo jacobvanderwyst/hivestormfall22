@@ -1,0 +1,3 @@
+enabled uwf firewall
+	sudo ufw enable
+removed user zeus
